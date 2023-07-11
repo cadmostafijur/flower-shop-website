@@ -226,3 +226,19 @@ a{
     object-fit: cover;
 
 }
+
+.service img {
+    display: block;
+    margin: 0 auto;
+  }
+#write{
+    color: gray;
+    font-size: medium;
+}
+.gren{
+    color: #dc3c6e;
+}
+.colser{
+    color: #dc3c6e;
+    font-weight: 800;
+}
