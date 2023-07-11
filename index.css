@@ -197,6 +197,22 @@ a{
     text-align: center;
 
 }
+.footer-column{
+    background-color: black;
+    padding: 50px;
+}
+.footer-column h3{
+    color: rgb(255, 248, 248);
+    text-align: center;
+}
+.footer-column #lcolor{
+    color: gray;
+    font-weight: 700
+}
+.footer-column .colored-span{
+    color: rgb(251, 108, 132);
+    font-weight: 700
+}
 .lastone .inpt{
     display: flex;
     justify-content: center;
