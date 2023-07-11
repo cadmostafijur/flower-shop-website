@@ -1,3 +1,212 @@
-.bg_color{
-    background-color: rgb(51, 51, 51);
+.banner{
+    background-color: rgb(255, 220, 226);
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn_primary{
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+    background-color: rgb(251, 108, 132);
+    border: 0;
+    padding: 15px 35px;
+    cursor: pointer;
+}
+.header{
+    background-color: #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+.banner .b_img {
+    width: 400px;
+}
+.banner_content{
+    max-width: 800px;
+
+}
+.banner_content p{
+    color: gray;
+
+}
+.banner-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+/* now second  */
+/* for feature  flower section*/
+.feature {
+    padding: 0px 35px;
+    border-radius: 10px;
+    background:white;
+    margin: 130px 0px;
+}
+.section_title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+#p_color{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 30%;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    gap: 30px;
+
+}
+.image-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.flower1{
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+    background-color: #f1f1f1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid #f7f7f7;
+}
+.flower2{
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+    background-color: #f1f1f1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid #f7f7f7;
+
+}
+.flower3{
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+    background-color: #f1f1f1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid #f7f7f7;
+}
+a{
+    text-align: center;
+    cursor: text;
+}
+/* .support{
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+    background-color: rgb(251, 108, 132);
+    border: 0;
+    padding: 15px 35px;
+    justify-items: center;
+}
+.support a{
+
+    text-align: center;
+    cursor: text;
+}
+.support .p2{
+    text-align: center;
+    background-color: #f1f1f1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+} */
+.support {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: #fcf4f4;
+}
+
+.support-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 20%;
+    padding: 0px;
+    /* width: 200px;
+    height: 200px; */
+    gap: 30px;
+
+}
+.support-container img {
+    width: 40;
+    height: 40;
+    object-fit: cover;
+}
+.hotdel{
+    padding: 20px 20px;
+    background-color: rgb(248, 239, 241);
+    display: flex;
+    align-items: center;
+    
+}
+.hotdel h3 {
+    text-align: center;
+    
+}
+.colored-span {
+    color: red;
+}
+
+.hotdel .b_img {
+    width: 200px;
+    height: 200px;
+}
+.social h3{
+    text-align: center;
+}
+.nfeature{
+    padding: 0px 35px;
+    border-radius: 10px;
+    background:white;
+    margin: 130px 0px;
+}
+.photinsta{
+    
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    gap: 30px;
+    
+}
+.lastone{
+    background-image: url(/img/Rectangle\ 9.png);
+}
+.lastone h2,p{
+    text-align: center;
+
+}
+.lastone .inpt{
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px 10px 5px;
+    gap: 10px;
+}
+.footer-column .ftitle h3{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+
 }
